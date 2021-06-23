@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StringCalculatorTest" time="0.08" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StringCalculatorTest" time="0.064" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/glodi.kayembe/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/glodi.kayembe/IdeaProjects/StringCalculator/target/surefire/surefirebooter15017513738096028596.jar /Users/glodi.kayembe/IdeaProjects/StringCalculator/target/surefire 2021-06-23T13-35-55_987-jvmRun1 surefire11633362234042856554tmp surefire_0589727940093842128tmp"/>
+    <property name="sun.java.command" value="/Users/glodi.kayembe/IdeaProjects/StringCalculator/target/surefire/surefirebooter15194805015277697297.jar /Users/glodi.kayembe/IdeaProjects/StringCalculator/target/surefire 2021-06-23T15-37-28_389-jvmRun1 surefire431242924812939850tmp surefire_09920261738257600475tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/glodi.kayembe/IdeaProjects/StringCalculator/target/test-classes:/Users/glodi.kayembe/IdeaProjects/StringCalculator/target/classes:/Users/glodi.kayembe/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/glodi.kayembe/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/glodi.kayembe/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/glodi.kayembe/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/glodi.kayembe/IdeaProjects/StringCalculator/target/surefire/surefirebooter15017513738096028596.jar"/>
+    <property name="surefire.real.class.path" value="/Users/glodi.kayembe/IdeaProjects/StringCalculator/target/surefire/surefirebooter15194805015277697297.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -54,6 +54,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="TestNumberGreaterThan1000" classname="StringCalculatorTest" time="0.043"/>
+  <testcase name="TestNumberGreaterThan1000" classname="StringCalculatorTest" time="0.039"/>
   <testcase name="TestNegativeNumber" classname="StringCalculatorTest" time="0.005"/>
 </testsuite>
