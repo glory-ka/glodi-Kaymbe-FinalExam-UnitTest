@@ -24,13 +24,14 @@ public class StringCalculatorTest
     public void TestNegativeNumber ()
     {
         Exception exception = assertThrows(IllegalArgumentException.class,
-                () -> calculator.add("-1 5 6"));
+                () -> calculator.add("-1,5,6"));
         assertEquals("negatives not allowed.", exception.getMessage());
     }
 
+    @Test
     public void TestNumberGreaterThan1000()
     {
-        int actual = calculator.add("1 2 10001");
+        int actual = calculator.add("1,2,1001");
         assertEquals(3, actual);
     }
 }
