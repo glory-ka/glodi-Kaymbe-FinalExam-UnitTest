@@ -3,7 +3,7 @@ public class StringCalculator {
     public static int add(final String numbers) {
         int returnValue = 0;
 
-        String[] numbersArray = numbers.split(",|\n");
+        String[] numbersArray = numbers.split(",|\\n");
 
         for (String number : numbersArray)
         {
